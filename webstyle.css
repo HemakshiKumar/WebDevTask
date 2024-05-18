@@ -1,0 +1,238 @@
+@font-face{
+    src:url(fonts/Vollkorn-VariableFont_wght.ttf);
+    font-family: LibreBaskerville-Regular;
+
+}
+@font-face{
+    src:url(fonts/Mukta-Light.ttf);
+    font-family: Mukta-Regular;
+
+}
+@font-face{
+    src:url(fonts/Mukta-Regular.ttf);
+    font-family: Mukta-Regular1;
+
+}
+#heading{
+    background-image:repeating-linear-gradient(-30deg, rgb(50, 49, 49) 10px, black 70px);
+    height:80px;
+    margin-top:-9px; 
+    margin-right:-160px;
+    margin-left:-8px;
+}
+.h1{
+    font-size:50px;
+    color:white;
+    margin:0px;
+    font-family:"LibreBaskerville-Regular";
+    position: relative;
+    top: 10px;
+}
+.h2{
+    font-size:30px;
+    color:white;
+    margin:-8px;
+    font-family:"LibreBaskerville-Regular";
+    position: relative;
+    top: 10px;
+}
+.pag{
+    background-color:black;
+    color:white;
+    font-family:"Mukta-Regular";
+    font-size: 15px;
+    position:relative;
+    text-align:center;
+    top:-62px;
+    padding:10px;
+    padding-bottom: 15px;
+    padding-top: 14px;
+    display:inline-block;
+}
+.pag1{
+    font-family:"Mukta-Regular";
+    font-size: 15px;
+    position:relative;
+    top:-62px;
+    margin-left:10px;
+}
+.pag1:hover{
+    background-color:rgb(201, 201, 201);
+    color:red;
+    padding:10px;
+    padding-bottom: 15px;
+    padding-top: 13px;
+    display:inline-block;
+    position:relative;
+    text-align:center;
+}
+#heading2{
+    background-color:rgb(224, 222, 222);
+    height:auto;
+    margin-left:-9px;
+    margin-right:-160px;
+    position:relative;
+    font-family:"Mukta-Regular";
+    top:-82px;
+}
+#loc{
+    color:rgb(104, 108, 125);
+    font-size:17px;
+    margin-left: 100px;
+}
+#date{
+    color:gray;
+    font-size:17px;
+    position: relative;
+    left:680px;
+}
+.header{
+    background-color:black;
+    color:white;
+    padding:2px;
+    padding-left:5px;
+    padding-right:5px;
+    font-size:15px;
+    border-radius:15px;
+    margin-left:10px;
+    font-family:"Mukta-Regular";
+    position:relative;
+    top:-250px;
+}
+.mainimg:hover{
+    opacity: 0.4;
+}
+#news{
+    color:white;
+    margin-left:30px;
+    position:relative;
+    font-family:"Mukta-Regular";
+    top:-320px;
+    font-size:30px;
+}
+#other{
+    color:white;
+    margin-left:30px;
+    position:relative;
+    top:-315px;
+    font-family:"Mukta-Regular";
+    font-size:20px;
+}
+.header1{
+        background-color:black;
+        color:white;
+        padding:2px;
+        padding-left:5px;
+        padding-right:5px;
+        font-size:15px;
+        border-radius:15px;
+        margin-left:10px;
+        position:relative;
+        top:-290px;
+        font-family:"Mukta-Regular";
+}
+#life{
+    color:white;
+    margin-left:460px;
+    position:relative;
+    top:-445px;
+    font-size:25px;
+    font-family:"Mukta-Regular";
+}
+#latest{
+    background-color: black;
+    border-radius:3px;
+    color:white;
+    font-size:20px;
+    text-align:center;
+    padding:10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    display:inline-block;
+    font-family:"Mukta-Regular";
+}
+#popular{
+    background-color: rgb(255, 255, 255);
+    border-radius:3px;
+    margin-left:-5px;
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-family:"Mukta-Regular";
+}
+.sideimages{
+    border-radius:3px;
+}
+.sideimg:hover{
+    opacity: 0.4;
+}
+.sidenews{
+    font-family:"Mukta-Regular";
+    font-size:15px;
+    position:relative;
+    left:110px;
+}
+.sidedates{
+    font-family:"Mukta-Regular";
+    font-size:13px;
+    position:relative;
+    left:110px;
+    color: gray;
+}
+.block{
+    background-color:white;
+    border-radius: 3px;
+    padding-left:30px;
+    padding-top:30px;
+    display:inline-block;
+    width:300px;
+    height:90px;
+    margin-top:5px;
+}
+.maindates{
+    font-size:16px;
+    font-family:"Mukta-Regular";
+    color:white;
+}
+#theme{
+    font-family:"Mukta-Regular1";
+    font-size:18px;
+    color:white;
+    position:relative;
+    top:-4px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 20px;
+}
+.card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    width: 500px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.card h3 {
+    font-size: 20px;
+    margin: 0;
+    position:relative;
+}
+
+.card p {
+    margin: 10px 0;
+    position:relative;
+}
+.card img{
+    width:50px;
+}
+#search:hover{
+    opacity: 0.4;
+}
